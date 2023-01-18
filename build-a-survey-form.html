@@ -1,0 +1,157 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>WGU Grad Survery Form</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+
+<body>
+
+<h1 id="title">WGU Acceleration Form
+  <p id="description">To gather info on WGU Accelerators</p></h1>
+
+
+<form id="survey-form">
+
+  <fieldset>
+    <label id='name-label' for="name">Enter your name: <input id='name' type="text" required placeholder="Ligma"></input></label>
+
+    <label id='email-label' for="email">Enter your email: <input id='email' type="email" required placeholder="Ligma@wgu.edu"></input></label>
+
+    <label id='number-label' for="number">How many months to complete program: <input id='number' type="number" min="1" max="99" required placeholder="36"></input></label>
+
+    </fieldset>
+    <fieldset>
+      <label id='dropdown-label' for="dropdown">Which college did you attend: 
+        <select id='dropdown'> 
+          <option value="">(select one)</option>
+            <option value="1">College of Business</option>
+            <option value="2">College of IT</option>
+            <option value="3">College of Health & Nursing</option>
+            <option value="4">College of Teaching</option>
+            </select>
+        </label>
+
+        <label id="xp-none-label" for="xp"><input id="xp-none" type="radio" name="xp" class="inline" value='2'/>No Previous experience</label>
+
+        <label id="xp-previous-label" for="xp-previous"><input id="xp-previous" type="radio" name="xp" class="inline" value='1'/>Previous experience</label>
+      </fieldset>
+
+      <fieldset>
+        <label for="helpful-mentor"><input id="helpful-mentor" name="helpful-mentor" type='checkbox' class="inline" value="helpful"></input>I found my mentor helpful</label>
+        
+        <label for="feedback">Would you like to provide any program feedback:
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Steve jobs died of ligma"></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+
+      </fieldset>
+      <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value='accepted'/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+      <label for="submit">
+      <input id="submit" type="submit" value="Submit" /></label>
+
+
+
+</form>
+
+    </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+body {
+  width: 100%;
+  height: 100vh;
+  margin: 0;
+  background-color: #ffffff;
+  color: #001731;
+  font-family: utura-pt;
+  font-size: 16px;
+}
+
+h1, p {
+  margin: 1em auto;
+  text-align: center;
+}
+
+form {
+  width: 60vw;
+  max-width: 500px;
+  min-width: 300px;
+  margin: 0 auto;
+  padding-bottom: 2em;
+}
+
+fieldset {
+  border: none;
+  padding: 2rem 0;
+  border-bottom: 3px solid #2d8eff;
+}
+
+fieldset:last-of-type {
+  border-bottom: none;
+}
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+}
+
+input,
+textarea,
+select {
+  margin: 10px 0 0 0;
+  width: 100%;
+  min-height: 2em;
+}
+
+input, textarea {
+  background-color: #002f51;
+  border: 1px solid #002f51;
+  color: #ffffff;
+}
+
+.inline {
+  width: unset;
+  margin: 0 0.5em 0 0;
+  vertical-align: middle;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 60%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #0070f0;
+  border-color: white;
+  min-width: 300px;
+}
+
+input[type="file"] {
+  padding: 1px 2px;
+}
+
+input[type="radio"]
+{
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+
+input[type="checkbox"]
+{
+  margin-top: -3px;
+  vertical-align: middle;
+}
+
+** end of undefined **
+
