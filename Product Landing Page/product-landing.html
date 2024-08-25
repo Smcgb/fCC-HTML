@@ -1,0 +1,115 @@
+<!-- This is a modified version of the Odin Project HTML introduction capstone. My submission can be found here
+ https://github.com/Smcgb/TOP-foundation-landing-page-->
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <title>The Odin Project Landing Page, fCC edition</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <main>
+        <header id="header">
+           <img src=https://www.theodinproject.com/assets/badge-foundations-4a1f6ae4009e6156a289aef0a3897283ff0e3fe1af6b5795aaf7260619dc11f4.svg id="header-img">
+
+           <nav id="nav-bar"><a href="#hero" class="nav-link">Hero</a> <a href="#info" class="nav-link">Info</a> <a href="#cta" class="nav-link">Act Now!</a></nav>
+        </header>
+        
+        <section id="hero" class="hero">
+          <div class="hero-text">
+             <p class="hero-main">This Website is Awesome!</p>
+             <p>This website has some subtext that goes here under the the main title. It's a similar font and the color is lower contrast.</p>
+             <button>Sign up</button>
+          </div>
+
+          <div class="hero-image">
+             <img src="https://via.placeholder.com/150" alt="Hero Image">
+        </section>
+
+        <section id="info" class="info">
+         <h2>Some Random Information.</h2>
+          
+           <div class="figures">
+              <figure>
+                 <img src="https://via.placeholder.com/150" alt="Some Random Info Image">
+                 <figcaption>This is some subtext under an illustration or image</figcaption>
+              </figure>
+              <figure>
+                 <img src="https://via.placeholder.com/150" alt="Some Random Info Image">
+                 <figcaption>This is some subtext under an illustration or image</figcaption>
+              </figure>
+              <figure>
+                 <img src="https://via.placeholder.com/150" alt="Some Random Info Image">
+                 <figcaption>This is some subtext under an illustration or image</figcaption>
+              </figure>
+              <figure>
+                 <img src="https://via.placeholder.com/150" alt="Some Random Info Image">
+                 <figcaption>This is some subtext under an illustration or image</figcaption>
+              </figure>
+            </div>
+  
+
+        </section>
+
+        <section id="quote" class="quote">
+          <p class="quote-text">This is an inspiring quote, or a testimonal from a customer. Maybe it's just filing up space, or maybe people will actually read it. Who knows? All I know is that that it looks nice.</p>
+          <p class="quote-author">-Thor, God of Thunder</p>
+        </section>
+
+        <section id="cta" class="cta">
+           <div class="text">
+             <p class="cta-bold">Call to action! It's time!</p>
+             <p class="cta-text">Sign up for our product by clicking that button right over there!</p>
+           </div>
+           <div><iframe id="video" width="480" height="150" src="https://www.youtube.com/embed/kUMe1FH4CHE?list=PLWKjhJtqVAbnSe1qUNMG7AbPmjIG54u88" title="Learn HTML – Full Tutorial for Beginners (2022)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  
+             <button>Click Me!</button>
+
+         </section>
+<form id="form" action="https://www.freecodecamp.com/email-submit">
+   <h2 id="contact-us">Contact us</h2>
+  <fieldset>
+    <label id='name-label' for="name">Enter your name: <input id='name' type="text" required placeholder="fCC Student"></input></label>
+
+    <label id='email-label' for="email">Enter your email: <input id='email' type="email" required placeholder="email@fcc.org" name="email"></input></label>
+
+    </fieldset>
+    <fieldset>
+      <label id='dropdown-label' for="dropdown"> What can we help you with 
+        <select id='dropdown'> 
+          <option value="">(select one)</option>
+            <option value="1">Question 1</option>
+            <option value="2">Question 2</option>
+            <option value="3">Question 3</option>
+            <option value="4">Privacy Concern</option>
+            </select>
+        </label>
+      </fieldset>
+
+      <fieldset>
+        <label for="feedback">Give a description of your concern or request:
+          <textarea id="feedback" name="feedback" rows="3" cols="30" placeholder="Where is Shelly?"></textarea>
+        </label>
+      </fieldset>
+
+      <fieldset>
+
+      </fieldset>
+      <label for="terms-and-conditions">
+          <input id="terms-and-conditions" type="checkbox" required name="terms-and-conditions" class="inline" value='accepted'/> I accept the <a href="https://www.freecodecamp.org/news/terms-of-service/">terms and conditions</a></label>
+      <label for="submit">
+      <input id="submit" type="submit" value="Submit" /></label>
+      </form>
+         
+   </main>
+   
+   <footer>
+      <p>Copyright © The Odin Project 2024 </p>
+   </footer>   
+    
+
+
+</body>
+</html>
